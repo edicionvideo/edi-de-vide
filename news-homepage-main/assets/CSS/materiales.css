@@ -1,0 +1,25 @@
+#info{
+    display: flex;
+    flex-wrap: owrap;
+    gap: 10px;
+}
+#info .material{
+    margin: 0;
+
+}
+
+#info .material img{
+    width: 50%;
+    height: 50%;
+}
+
+@media(max-width:480px){
+    #info .material{
+        flex-grow: 1;
+
+    }
+    #info .material img {
+       width: 50%;
+       height: 50%;
+    }
+}

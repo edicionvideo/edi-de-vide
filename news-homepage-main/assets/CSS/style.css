@@ -1,0 +1,267 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(245, 243, 243);
+}
+#container {
+    width: 80%;
+}
+
+header {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+
+    height: 90px;
+   
+}
+
+#logo {
+    width: 40%;
+    
+}
+
+#logo img{
+    width: 60%;
+    height: 100%;
+}
+
+#nav{
+    width: 80%;
+
+  
+}
+
+nav ul{
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+ 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 10, 10);
+    margin: 10px;
+    background-color: #c4b15e;
+    
+}
+
+#hamburguer{
+    display: none;
+}
+
+
+
+
+
+
+/* CONTENIDO */
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#info {
+    width: 55%;
+    margin: 0 15px;
+}
+
+#info #banner img{
+    width: 100%;
+    
+}
+
+#barral {
+    width: 45%;
+    margin: 0;
+    background-color: #e0d7dc;
+
+}
+
+#text{
+    justify-content: space-between;
+    margin-top: 20px;
+    display: flex;
+  
+}  
+
+#text h1{
+ margin: 0;
+ width: 65%;
+ font-size: 80px;
+ font-weight: 800;
+color: #f7f4f4;
+}
+
+
+
+#text #descripcion{
+  margin:  0;
+  width: 45%;
+  color: azure;
+}
+
+#text #descripcion input{
+    background-color: black;
+    padding: 15px 30px;
+    color: #ccc;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+#content #banner img {
+    width: 100%;
+}
+
+
+
+
+#barral {
+    background-color: #160905;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+#barral h1 {
+    margin-bottom: 40px;
+   color: #fcfcff;
+}
+
+#barral #cards .card {
+    margin: 20px 0;
+    border-bottom: 1px dashed #cccccc;
+    background-color: #201105;
+    color: #faf0f0;
+}
+
+#menu-h{
+    display: block;
+    position: absolute;
+    right: 30px;
+    z-index: 20px;
+}
+
+footer {
+   margin-top: 40px;
+   margin-bottom: 40px;
+  }
+
+  footer .tarjeta {
+    display: flex;
+   
+  }
+
+  .tarjeta .infopie img{
+    width:50%;
+  }
+
+  .tarjeta .infopie{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e8f0;
+    
+  }
+  
+  .tarjeta .infopie .textos{
+    width: 75%;
+    color: #000000;
+  }
+  .image-description {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-description img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .image-description p {
+    margin: 0;
+
+  }
+
+ @media (max-width:480px){
+nav{
+    position: absolute;
+    background-color: #faf0f0;
+    height: 1000%;
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+nav ul{
+    flex-direction: column;
+    text-align: left;
+    margin-top: 60px;
+}
+nav ul li{
+    margin: 20px 0;
+
+}
+#menu{
+     display: none;
+}
+#hamburguer{
+    width: 13%;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+    right: 40px;
+}
+header{
+    margin-top: 10px;
+}
+#logo{
+margin: 0;
+
+}
+#logo img{
+    width: 80%;
+}
+#content {
+    flex-direction: column;
+}
+#info{
+    width: 100%;
+    margin-bottom: 40px;
+}
+#barral{
+    width: 100%;
+}
+#text{
+    flex-direction: column;
+}
+#text h1{
+     width: 100%;
+}
+#text #descripcion{
+    width: 100%;
+}
+.tarjeta{
+    flex-direction: column;
+     
+   }
+ 
+ .tarjeta .infopie{
+     margin-bottom: 10%;
+   
+ }
+ .tarjeta .infopie{
+    width: 100%;
+   
+    
+  }
+ }
+
+ 
